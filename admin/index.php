@@ -54,7 +54,7 @@ $namalengkap = $row['nama_lengkap'];
   </nav>
 
   
-  <h3><p class="text-center mt-3">Selamat datang di Galeri Foto, <b><?php echo $row['nama_lengkap']; ?>!!</b></p></h3> 
+  <h3><p class="text-center mt-3">Selamat datang di Galeri Foto, <b><?php echo ucwords($row['nama_lengkap']); ?>!!</b></p></h3> 
 
 
 
